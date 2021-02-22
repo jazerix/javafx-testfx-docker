@@ -6,6 +6,6 @@ Simply run the `test-javafx` followed by your command. This will start the displ
 
 An example of this could be:
 
-```
+```bash
 test-javafx mvn test
 ```
