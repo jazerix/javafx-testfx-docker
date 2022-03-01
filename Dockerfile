@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
 RUN add-apt-repository ppa:openjdk-r/ppa
 
 RUN apt-get install -y \
-    maven openjdk-15-jdk xvfb xorg openbox
+    maven openjdk-16-jdk xvfb xorg openbox
 
 ENV DISPLAY :99
 
